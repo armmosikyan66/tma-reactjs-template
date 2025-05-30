@@ -2,12 +2,8 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/reactjs-template/(.*)",
-      "destination": "/reactjs-template/index.html"
-    },
-    {
       "source": "/(.*)",
-      "destination": "/reactjs-template/index.html"
+      "destination": "/index.html"
     }
   ],
   "builds": [
